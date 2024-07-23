@@ -13,4 +13,7 @@ This project demonstrates the integration between GCP Pub/Sub and Apache Cassand
 - **Apache Cassandra**: Stores sales and payment data.
 - **Python**: Used for implementing the producers and consumers.
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
