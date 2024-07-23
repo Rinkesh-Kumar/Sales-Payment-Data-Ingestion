@@ -1,0 +1,15 @@
+CREATE TABLE ecom_tranx.orders_payments_facts (
+    order_id BIGINT PRIMARY KEY,
+    customer_id BIGINT,
+    item TEXT,
+    quantity BIGINT,
+    price DOUBLE,
+    shipping_address TEXT,
+    order_status TEXT,
+    creation_date TEXT,
+    payment_id BIGINT,
+    payment_method TEXT,
+    card_last_four TEXT,
+    payment_status TEXT,
+    payment_datetime TEXT
+);
