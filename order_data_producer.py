@@ -7,7 +7,7 @@ from google.cloud import pubsub_v1
 publisher = pubsub_v1.PublisherClient()
 
 # Project and Topic details
-project_id = "dataengineering-426419"
+project_id = "dataengineerxxxxx19"
 topic_name = "orders_data"
 topic_path = publisher.topic_path(project_id, topic_name)
 
