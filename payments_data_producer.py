@@ -7,7 +7,7 @@ from random import choice, uniform
 publisher = pubsub_v1.PublisherClient()
 
 # Project and Topic details
-project_id = "dataengineering-426419"
+project_id = "dataengineexxxxx19"
 topic_name = "payments_data"
 topic_path = publisher.topic_path(project_id, topic_name)
 
